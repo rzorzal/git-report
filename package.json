@@ -24,6 +24,6 @@
     "moment": "^2.29.1"
   },
   "bin": {
-    "git-report": "index.js"
+    "git-report": "node index.js"
   }
 }
