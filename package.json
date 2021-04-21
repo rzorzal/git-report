@@ -1,6 +1,6 @@
 {
   "name": "git-report",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A git report based in logs and author commits",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,6 @@
     "moment": "^2.29.1"
   },
   "bin": {
-    "git-report": "node index.js"
+    "git-report": "index.js"
   }
 }

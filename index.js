@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { gitlogPromise } = require("gitlog");
 const fs = require('fs');
 const getEmail = require('git-user-email');
