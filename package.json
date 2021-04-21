@@ -1,6 +1,6 @@
 {
   "name": "git-report",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A git report based in logs and author commits",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,11 @@
   "bugs": {
     "url": "https://github.com/rzorzal/git-report/issues"
   },
+  "keywords": [
+    "git",
+    "log",
+    "report"
+  ],
   "homepage": "https://github.com/rzorzal/git-report",
   "dependencies": {
     "commander": "^7.2.0",
@@ -19,6 +24,6 @@
     "moment": "^2.29.1"
   },
   "bin": {
-    "git-activity": "index.js"
+    "git-report": "index.js"
   }
 }
