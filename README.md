@@ -45,8 +45,8 @@ Will produce a report like that:
 {
   '01/04/2021': {
     'your-project-name-1': { numberCommits: 4, subjects: [Array] },
-    RedeCelcoinWeb: { numberCommits: 2, subjects: [Array] },
-    touli: { numberCommits: 4, subjects: [Array] },
+    'your-project-name-3': { numberCommits: 2, subjects: [Array] },
+    'your-project-name-4': { numberCommits: 4, subjects: [Array] },
     'your-project-name-2': { numberCommits: 3, subjects: [Array] }
   },
   '05/04/2021': {
