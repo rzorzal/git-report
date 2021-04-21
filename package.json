@@ -1,17 +1,24 @@
 {
   "name": "git-report",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "A git report based in logs and author commits",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ricardo Zorzal",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rzorzal/git-report/issues"
+  },
+  "homepage": "https://github.com/rzorzal/git-report",
   "dependencies": {
     "commander": "^7.2.0",
     "git-user-email": "git://github.com/codejamninja/git-user-email.git#npm",
     "gitlog": "^4.0.4",
     "moment": "^2.29.1"
+  },
+  "bin": {
+    "git-activity": "index.js"
   }
 }
